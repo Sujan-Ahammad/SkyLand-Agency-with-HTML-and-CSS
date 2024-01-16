@@ -74,7 +74,7 @@
   line-height: 120%;
 }
 
-.input{
+.input {
   position: relative;
 }
 
@@ -98,13 +98,12 @@
   font-weight: 400;
 }
 
-
 /* Step Container */
-.step-container{
+.step-container {
   padding: 30px 100px;
   text-align: center;
 }
-.step-des{
+.step-des {
   font-size: 25px;
   color: rgb(22, 19, 19);
   font-style: normal;
@@ -112,38 +111,175 @@
   font-weight: 500;
   margin-bottom: 5px;
 }
-.step-title{
+.step-title {
   margin-top: 8px;
   font-size: 56px;
   font-style: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 700;
 }
-.step-card-container{
+.step-card-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-.step-card{
+.step-card {
   padding: 10px 20px;
   text-align: start;
 }
-.step-card h2{
+.step-card h2 {
   margin-bottom: 5px;
   font-size: 30px;
   font-style: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
 }
-.step-card p{
+.step-card p {
   margin-top: 5px;
   font-size: 15px;
   font-style: normal;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 500;
 }
-.step-card i{
+.step-card i {
   font-size: 50px;
   color: green;
+}
+
+/* Recent Project Container */
+.recent-project-container {
+  padding: 20px 120px;
+}
+.project-des {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.project-title {
+  margin-top: 5px;
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  align-items: center;
+}
+.project-box {
+  padding: 8px 8px;
+  border-radius: 14px;
+  border: 1px solid var(--gray-Color, #bebebe);
+  /* opacity: 0.45; */
+  background: var(--White, #fefeff);
+}
+.box-title {
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.box-des {
+  margin-top: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.rating i {
+  color: rgba(237, 122, 35, 0.988);
+  font-size: 25px;
+}
+
+.global-client-container {
+  margin-top: 10px;
+  padding: 20px 120px;
+  text-align: center;
+}
+
+.global-title {
+  font-size: 50px;
+  color: #000000;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  text-align: center;
+}
+.global-container {
+  margin-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-container {
+  text-align: start;
+}
+.left-title {
+  color: #000000;
+  font-size: 45px;
+  font-style: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.left-des {
+  margin-top: 8px;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+}
+
+
+.btn-book {
+  padding: 10px 15px;
+  background: #232222;
+  color: #fff9f9;
+  font-size: 15px;
+  font-family: Verdana,  Tahoma, sans-serif;
+  border-radius: 60px;
+  border: none;
+  cursor: pointer;
+}
+.btn-read{
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: Verdana,  Tahoma, sans-serif;
+  cursor: pointer;
+  border: 1px solid gray;
+  margin-left: 25px;
+  border-radius: 60px;
+
+}
+.left-chart {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+.left-chart h1{
+  padding: 10px 25px;
+  font-size: 35px;
+  color: black;
+  font-weight: 800;
+  font-style: bold;
+  border-radius: 10px;
+  border: 1px solid rgb(110, 110, 110);
+}
+.left-chart span{
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
 }
