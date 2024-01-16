@@ -172,11 +172,14 @@
   align-items: center;
 }
 .project-box {
-  padding: 8px 8px;
+  padding: 20px 25px;
   border-radius: 14px;
   border: 1px solid var(--gray-Color, #bebebe);
   /* opacity: 0.45; */
   background: var(--White, #fefeff);
+}
+.project-box .img {
+  margin: auto;
 }
 .box-title {
   font-size: 30px;
@@ -199,7 +202,7 @@
 
 .global-client-container {
   margin-top: 10px;
-  padding: 20px 120px;
+  padding: 20px 150px;
   text-align: center;
 }
 
@@ -213,12 +216,9 @@
 }
 .global-container {
   margin-top: 20px;
-  margin-top: 20px;
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
 }
 
 .left-container {
@@ -230,7 +230,7 @@
   font-style: bold;
   font-family: "Times New Roman", Times, serif;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 .left-des {
   margin-top: 8px;
@@ -239,47 +239,80 @@
   font-family: "Times New Roman", Times, serif;
   font-weight: 500;
   color: rgb(95, 95, 95);
+  margin-bottom: 30px;
 }
-
 
 .btn-book {
   padding: 10px 15px;
   background: #232222;
   color: #fff9f9;
   font-size: 15px;
-  font-family: Verdana,  Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   border-radius: 60px;
   border: none;
   cursor: pointer;
 }
-.btn-read{
+.btn-read {
   padding: 10px 15px;
   font-size: 15px;
-  font-family: Verdana,  Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
   cursor: pointer;
   border: 1px solid gray;
   margin-left: 25px;
   border-radius: 60px;
-
 }
 .left-chart {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   text-align: center;
 }
-.left-chart h1{
+.left-chart h1 {
   padding: 10px 25px;
   font-size: 35px;
   color: black;
   font-weight: 800;
   font-style: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 10px;
   border: 1px solid rgb(110, 110, 110);
 }
-.left-chart span{
+.left-chart span {
   font-style: normal;
   font-size: 25px;
   color: black;
+  font-weight: 400;
+}
+
+.footer-container {
+  padding: 0 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
+}
+.left-title {
+  font-size: 55px;
+  color: #000000;
+  font-weight: 700;
+  font-style: bold;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.left-des {
+  font-size: 20px;
+  color: rgb(70, 70, 70);
+  font-style: normal;
+  font-weight: 500;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.copyright{
+  text-align: center;
+  padding: 20px 10px ;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
 }
